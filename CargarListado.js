@@ -11,13 +11,13 @@ function cargarDatos(url) {
 
         .then(datos => {
            
-            datos.articulos.forEach(integrante => {
+            datos.Articulos.forEach(integrante => {
 
                 let row = "";
                 row = `
                  
 
-                <li> CodigoBarra: `+ integrante.CodigoBarra +
+                <li> CodigoBarra: `+ integrante.Codigobarra +
                  `, Nombre: ` + integrante.Nombre +
                   `, Precio: `+ integrante.Precio +`</li>`
 
