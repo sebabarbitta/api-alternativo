@@ -5,21 +5,23 @@ const urlc = "https://sebabarbitta.github.io/api-alternativo/Proveedor.json";
 const urld = "https://sebabarbitta.github.io/api-alternativo/Vendedor.json";
 
 function cargarDatos(url) {
-    document.getElementById("listado").innerHTML = "";
+    document.getElementById("articulos").innerHTML = "";
     fetch(url)
         .then(respuesta => respuesta.json())
 
         .then(datos => {
            
-            datos.listado.forEach(integrante => {
+            datos.Articulos.forEach(integrante => {
 
                 let row = "";
                 row = `
                  
 
-                <li> Nombre: `+ integrante.Nombre + `, Apellido: ` + integrante.Apellido + `, Edad: `+ integrante.Edad +`, Localidad ` +integrante.Localidad +`</li>`
+                <li> CodigoBarra: `+ integrante.CodigoBarra +
+                 `, Nombre: ` + integrante.Nombre +
+                  `, Precio: `+ integrante.Precio +`</li>`
 
-                     document.getElementById("listado").innerHTML += row;
+                     document.getElementById("articulos").innerHTML += row;
                      
 
             });
