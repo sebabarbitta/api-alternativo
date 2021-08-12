@@ -1,0 +1,27 @@
+{
+    "nombre": "Proveedor",
+    "Proveedor": [
+        {
+            "RazonSocial": "Conaprole",
+            "Rubro": "Alimentos",
+            "Direccion": "Miguelete 2425"
+            
+        },
+        {
+            "RazonSocial": "FNC",
+            "Rubro": "Bebidas",
+            "Direccion": "Paraguay 2425"
+        },
+        {
+            "RazonSocial": "SALUS",
+            "Rubro": "Bebidas",
+            "Direccion": "Colonia 2425"
+        },
+        {
+            "RazonSocial": "ARCOR",
+            "Rubro": "Alimentos",
+            "Direccion": "Millan 2425"
+        }
+        
+    ]
+}

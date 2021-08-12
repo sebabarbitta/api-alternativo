@@ -1,0 +1,32 @@
+{
+    "nombre": "Vendedores",
+    "Vendedores": [
+        {
+            "CI": "54264286",
+            "Nombre": "Juan",
+            "Apellido": "Perez"
+            
+        },
+        {
+            "CI": "46424286",
+            "Nombre": "Leonel",
+            "Apellido": "Messi"
+        },
+        {
+            "CI": "14255426",
+            "Nombre": "Agustina",
+            "Apellido": "Rivero"
+        },
+        {
+            "CI": "44455441",
+            "Nombre": "Luis",
+            "Apellido": "Suarez"
+        },
+        {
+            "CI": "55441152",
+            "Nombre": "Cristiano",
+            "Apellido": "Ronaldo"
+        }      
+        
+    ]
+}

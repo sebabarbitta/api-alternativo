@@ -1,0 +1,18 @@
+{
+    "nombre": "Distribuidora",
+    "Distribuidora": [
+        {
+            "RazonSocial": "Vendetodos SRL",
+            "Nombre": "Vender Todo",
+            "Direccion": "Gral Flores 3000"
+            
+        },
+        {
+            "RazonSocial": "VendeYa SRL",
+            "Nombre": "Vendex",
+            "Direccion": "Millan 3000"
+        }
+        
+        
+    ]
+}

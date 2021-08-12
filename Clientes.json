@@ -1,0 +1,37 @@
+{
+    "nombre": "Clientes",
+    "Clientes": [
+        {
+            "RUT": "2245435785101",
+            "Direccion": "Bv Artigas 2525",
+            "Nombre": "Pepito",
+            "Canal": "Almacen"
+            
+        },
+        {
+            "RUT": "21000154254485",
+            "Direccion": "Millan 2525",
+            "Nombre": "La 5 esquinas",
+            "Canal": "Rotiseria"
+        },
+        {
+            "RUT": "125442345841225",
+            "Direccion": "Garibaldi 2525",
+            "Nombre": "Ruperto",
+            "Canal": "Supermercado"
+        },
+        {
+            "RUT": "245585452415965",
+            "Direccion": "Gral Flores 2525",
+            "Nombre": "Lolamento",
+            "Canal": "Almacen"
+        },
+        {
+            "RUT": "154545875000123",
+            "Direccion": "Propios 2525",
+            "Nombre": "CompraYa",
+            "Canal": "Almacen"
+        }
+        
+    ]
+}
