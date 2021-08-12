@@ -1,47 +1,47 @@
 {
     "nombre": "Articulos",
-    "Articulos": [
+    "articulos": [
         {
-            "Codigo Barra": "2215452545",
+            "CodigoBarra": "2215452545",
             "Nombre": "Helado 2lt",
             "Precio": "45"
             
         },
         {
-            "Codigo Barra": "1002254524",
+            "CodigoBarra": "1002254524",
             "Nombre": "Helado 1lt",
             "Precio": "20"
         },
         {
-           "Codigo Barra": "12489555200",
+           "CodigoBarra": "12489555200",
             "Nombre": "Helado Vasito",
             "Precio": "20"
         },
         {
-            "Codigo Barra": "112245525",
+            "CodigoBarra": "112245525",
             "Nombre": "Helado Palito",
             "Precio": "10"
         },
         {
-            "Codigo Barra": "1254236452",
+            "CodigoBarra": "1254236452",
             "Nombre": "Helado 5lt Chocolate",
             "Precio": "70"
         },
         {
-            "Codigo Barra": "25444522222",
+            "CodigoBarra": "25444522222",
             "Nombre": "Agua con gas",
             "Precio": "15"
         },
         {
-            "Codigo Barra": "4522415154",
+            "CodigoBarra": "4522415154",
             "Nombre": "Agua Saborizada",
             "Precio": "25"
         },{
-            "Codigo Barra": "555444444",
+            "CodigoBarra": "555444444",
             "Nombre": "Cerveza Artesanal",
             "Precio": "30"
         },{
-            "Codigo Barra": "11444444",
+            "CodigoBarra": "11444444",
             "Nombre": "Cerveza Uruguaya",
             "Precio": "70"
         }
