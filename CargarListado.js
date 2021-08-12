@@ -34,3 +34,33 @@ function cargarDatos(url) {
         
 }
 
+function CargarClie(clie) {
+    document.getElementById("Clientes").innerHTML = "";
+    fetch(clie)
+        .then(respuesta => respuesta.json())
+
+        .then(datos => {
+           
+            datos.Clientes.forEach(clientes => {
+
+                let row = "";
+                row = `
+                 
+
+                <li> CodigoBarra: `+ clientes.RUT +
+                 `, Nombre: ` + clientes.Direccion +
+                  `, Precio: `+ clientes.Nombre +
+                  `, Nombre: ` + clientes.Canal +`</li>`
+
+                     document.getElementById("Clientes").innerHTML += row;
+                     
+
+            });
+
+            
+
+        })
+        .catch(error => alert("Hubo un error: " + error));
+
+        
+}
