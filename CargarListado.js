@@ -11,7 +11,7 @@ function cargarDatos(url) {
 
         .then(datos => {
            
-            datos.Articulos.forEach(integrante => {
+            datos.articulos.forEach(integrante => {
 
                 let row = "";
                 row = `
