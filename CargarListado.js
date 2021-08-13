@@ -36,6 +36,7 @@ function cargarDatos(url) {
 
 function CargarClie(clie) {
     document.getElementById("Clientes").innerHTML = "";
+    document.getElementById("Clientes").innerHTML += `<h1>Ahora vienen los CLIENTES</h1>`;
     fetch(clie)
         .then(respuesta => respuesta.json())
 
@@ -43,17 +44,17 @@ function CargarClie(clie) {
            
             datos.Clientes.forEach(clientes => {
 
-                let row = "";
-                row = `
+                let rowi = "";
+                rowi = `
                  
 
-                <li> CodigoBarra: `+ clientes.RUT +
-                 `, Nombre: ` + clientes.Direccion +
-                  `, Precio: `+ clientes.Nombre +
-                  `, Nombre: ` + clientes.Canal +`</li>`
+                <li> RUT: `+ clientes.RUT +
+                 `, Dir: ` + clientes.Direccion +
+                  `, Nombre: `+ clientes.Nombre +
+                  `, Canal: ` + clientes.Canal +`</li>`
 
-                     document.getElementById("Clientes").innerHTML += row;
-                     
+                     document.getElementById("Clientes").innerHTML += rowi ;
+                 //    document.getElementById("Clientes").innerHTML ;
 
             });
 
